@@ -1,0 +1,11 @@
+# DSH Copilot pet — the package contributes exactly one Loader row.
+#
+# 安装方式见 DSH_Copilet/README.md：
+#  - 免重启（默认）：tools/install_live.ps1 把同一个 insert 块写进
+#    $DSH_HOME/profiles/web/cordis.patch.yml（那里是 live reload 的用户层），
+#    本文件因此在 live 安装路径下不被读取；
+#  - 正规安装：`dsh plugin --profile web add` 会把这个包作为 bundle 层，
+#    于是由本文件插入同一行（两种方式二选一，否则会重复插入同一 id）。
+- insert:
+    - id: ui-pet
+      name: '@dsh-local/dsh-client-ui-pet'

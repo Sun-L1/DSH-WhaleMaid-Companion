@@ -1,0 +1,36 @@
+{
+  "name": "@dsh-local/dsh-client-ui-pet",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DSH Copilot pet: a read-only browser-half client UI plugin that observes the current session (context pressure, compaction, quota failures) and animates a desktop-pet overlay in shell.overlay. No host code, no network, no token cost.",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-settings-general"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "react": ">=18"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md"
+  ]
+}

@@ -1,0 +1,13 @@
+# 文本统一 LF 检出；PowerShell 脚本保持 CRLF，避免 Windows 上出现解释器怪问题
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制：不要做行尾/编码转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary

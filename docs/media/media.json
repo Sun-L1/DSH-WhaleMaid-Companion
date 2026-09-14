@@ -1,0 +1,19 @@
+{
+  "generator": "tools/build_media.py",
+  "font": "C:/Windows/Fonts/msyh.ttc",
+  "cjk": true,
+  "files": {
+    "hero.gif": {
+      "sha256": "336e71bfadd3326cf92ca6906ff60cdb854138361f3a65b5758a14a2436fe30b",
+      "bytes": 479264
+    },
+    "drag.gif": {
+      "sha256": "92f832e9a95cdd0518cb8d966b402a45bd63bf7165a8a19a9c2fca9f1a2befc1",
+      "bytes": 385557
+    },
+    "moods.png": {
+      "sha256": "a6d8b1ef791b4652c9028cd66fb8a6f920244430cde219c10c60c09b3d0a760f",
+      "bytes": 249790
+    }
+  }
+}
