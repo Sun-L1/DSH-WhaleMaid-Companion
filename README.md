@@ -21,7 +21,7 @@ WhaleMaid是谐音梗
 - 🥣 **余额不足**：端个空碗提醒你（只认额度耗尽类失败，限流不算）
 - 🗣 台词、菜单、设置项均中英双语；跟随系统「减少动效」
 
-<img src="docs/media/moods.png" width="640" alt="八种状态：待机 / 工作中 / 疲倦 / 快撑不住 / 打盹 / 擦汗 / 空碗 / 被拎起来">
+<p align="center"><img src="docs/media/moods.png" width="640" alt="八种状态：待机 / 工作中 / 疲倦 / 快撑不住 / 打盹 / 擦汗 / 空碗 / 被拎起来"></p>
 
 ## 安装（免重启）
 
@@ -45,7 +45,7 @@ pwsh -NoProfile -File tools\install_live.ps1            # 真正安装（写 %DS
 | 设置 → 通用 → 桌宠 | 显示开关、尺寸、占用条、减少动效、重置位置、只读状态行 |
 | Tab / Enter / 方向键 / Esc | 键盘可用（无障碍）；视口 < 420px 自动隐藏 |
 
-<img src="docs/media/drag.gif" width="420" alt="拖拽反应：被拎起来 + 连滴汗">
+<p align="center"><img src="docs/media/drag.gif" width="420" alt="拖拽反应：被拎起来 + 连滴汗"></p>
 
 ## 验证与卸载
 
