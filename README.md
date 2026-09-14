@@ -5,7 +5,7 @@
 <img src="assets/icon.png" width="120" alt="桌宠头像">
 
 **住在 Harness Web GUI 里的桌宠** —— 跟着你的上下文一起累、压缩后擦汗、余额见底端空碗。零 token、零出网、零 host 代码。
-**(WhaleMaid是谐音梗)
+(WhaleMaid是谐音梗)
 
 <img src="docs/media/hero.gif" width="420" alt="桌宠演示：呼吸、眨眼、说话">
 
